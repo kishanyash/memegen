@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+}
+.meme-generator{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+.meme-generator img{
+    height: 450px ;
+    object-fit: cover;
+}
+.meme-generator .generate-meme-btn{
+    padding: 8px 2opx;
+    border:  2px solid rgb(189, 0, 0);
+    margin: 24px 0;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 8%;
+    transition: all 400ms ease;
+    
+
+}
+.meme-generator .generate-meme-btn:hover{
+    padding: 8px 8px;
+    color: rgb(0, 0, 0);
+    border:  2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    letter-spacing: 3px;
+}
+.meme-generator .meme-author{
+    margin: 8px;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  body {
+    background-color: #fff; /* Default background color */
+    color: #333; /* Default text color */
+  }
+  
+  body.night-mode {
+    background-color: #1a1a1a; /* Dark background color for night mode */
+    color: #ffffff; /* Light text color for night mode */
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .toggle-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      display: none;
+    }
+  
+    .content.active {
+      display: block;
+    }
+  }
+  /* styles.css */
+body {
+    background-color: #fff; /* Default background color */
+    color: #333; /* Default text color */
+  }
+  
+  body.night-mode {
+    background-color: #1a1a1a; /* Dark background color for night mode */
+    color: #ffffff; /* Light text color for night mode */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Default button color */
+    color: #fff; /* Default button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Button color on hover */
+  }
+  
+  button.night-mode {
+    background-color: #2c3e50; /* Button color in night mode */
+    color: #ffffff; /* Button text color in night mode */
+  }
+  
+  button.night-mode:hover {
+    background-color: #7dbe03; /* Button color on hover in night mode */
+  }
+  
